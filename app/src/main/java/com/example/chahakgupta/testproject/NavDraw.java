@@ -68,6 +68,7 @@ public class NavDraw extends ActionBarActivity implements OnItemClickListener {
         dataList.add(new Test_drawitem("Books", R.drawable.buybook));
         dataList.add(new Test_drawitem("Cart", R.drawable.book_bazar));
         dataList.add(new Test_drawitem("Books bought", R.drawable.buybook));
+        dataList.add(new Test_drawitem("My profile", R.drawable.ic_action_group));
         dataList.add(new Test_drawitem("Exit", R.drawable.signout));
 
         adapter = new Test_custom_adap(this, R.layout.test_item,
@@ -132,6 +133,7 @@ public class NavDraw extends ActionBarActivity implements OnItemClickListener {
         dataList.add(new Test_drawitem("Books", R.drawable.buybook));
         dataList.add(new Test_drawitem("Cart", R.drawable.book_bazar));
         dataList.add(new Test_drawitem("Books bought", R.drawable.book4));
+        dataList.add(new Test_drawitem("My profile", R.drawable.ic_action_group));
         dataList.add(new Test_drawitem("Exit", R.drawable.signout));
 
         adapter = new Test_custom_adap(this, R.layout.test_item,
@@ -246,8 +248,14 @@ public class NavDraw extends ActionBarActivity implements OnItemClickListener {
                 ft.addToBackStack(null);
                 ft.commit();
                 break;
-
             case 4:
+                fr= new User_profile();
+                ft.replace(R.id.fl,fr);
+                ft.addToBackStack(null);
+                ft.commit();
+                break;
+
+            case 5:
               //  Intent i6 = new Intent(this,Signin.class);
                 //i6.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 finish();

@@ -68,8 +68,8 @@ public class Order_success extends Fragment{
                         public void onClick(DialogInterface dialog, int which) {
 
 
-                            final ParseQuery q1 = ParseQuery.getQuery("User_details");
-                            q1.whereEqualTo("user", ParseUser.getCurrentUser().getObjectId());
+                            final ParseQuery q1 = ParseUser.getQuery();
+                            q1.whereEqualTo("objectId", ParseUser.getCurrentUser().getObjectId());
                             q1.countInBackground(new CountCallback() {
                                 @Override
                                 public void done(int i, ParseException e) {

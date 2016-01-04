@@ -27,4 +27,4 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
         android:background="#ffff"/>
-</android.support.v4.widget.DrawerLayout><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/test.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/D:/BookFlix/app/src/main/res/layout/test.xml -->

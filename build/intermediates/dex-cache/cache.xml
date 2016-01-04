@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="F:\bookflix\testproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-657ad6fb05884b524bcfcb69e7610b387552faee.jar" />
-    </item>
-    <item
-        jar="F:\bookflix\testproject\app\libs\ParseCrashReporting-1.9.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7a11f2d74111fd9b02c2d091a1b76b82f6a4357e">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.4-2bf43a76473d876a0651ce325fbd0a1c7adebd6c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Abhinav Garg\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-86932541af15cc0baeef5fa46d3d4f17ac686b93.jar" />
-    </item>
-    <item
-        jar="C:\Users\Abhinav Garg\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-6b5919ff321af0c7712d648f7ddaa4ce091b146d.jar" />
-    </item>
-    <item
-        jar="F:\bookflix\testproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\classes-6a7bb46e0cc0bbae174e1f897f8f27c5f7a7594b.jar" />
-    </item>
-    <item
-        jar="F:\bookflix\testproject\app\libs\Parse-1.9.4.jar"
+        jar="D:\BookFlix\app\libs\Parse-1.9.4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\Parse-1.9.4-bedc47b7017c773ec13a7e5eb1e30e9483a36f3f.jar" />
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\Parse-1.9.4-f6ac1f57e43be7b38ab540fa6c4f9de65734d620.jar" />
     </item>
     <item
-        jar="F:\bookflix\testproject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\classes.jar"
+        jar="C:\Users\CHAHAK GUPTA\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-508960da2890cdc0fec7c4ab4f0a6fbd7cceb9ae.jar" />
+    </item>
+    <item
+        jar="D:\BookFlix\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="F:\bookflix\testproject\app\build\intermediates\pre-dexed\debug\classes-9e2394c837a583dee3ff9bc003673c2fa29cf289.jar" />
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\classes-4051303ee711f36fb156f6cd4c1ff91450ec5a47.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-6afb30d34d8ee0256038e37cf43078b75d29b358.jar" />
+    </item>
+    <item
+        jar="D:\BookFlix\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-01f9adaf13abe8d84584a4d3ade3ceafb4e93c48.jar" />
+    </item>
+    <item
+        jar="D:\BookFlix\app\libs\ParseCrashReporting-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7a11f2d74111fd9b02c2d091a1b76b82f6a4357e">
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.4-54f990b8b848ae94d2b6c6875fc78c12af51beb7.jar" />
+    </item>
+    <item
+        jar="D:\BookFlix\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\BookFlix\app\build\intermediates\pre-dexed\debug\classes-fa5e9bc02fc778149150bcb7d152f713cf9cceac.jar" />
     </item>
 
 </items>

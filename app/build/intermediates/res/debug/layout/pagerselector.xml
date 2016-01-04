@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="#ffffff" />
     <item android:state_pressed="true" android:color="#ffffff" />
     <item android:color="#8a140e" />
-</selector><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/pagerselector.xml -->
+</selector><!-- From: file:/D:/BookFlix/app/src/main/res/layout/pagerselector.xml -->

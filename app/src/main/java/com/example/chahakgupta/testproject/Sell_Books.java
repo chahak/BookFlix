@@ -150,8 +150,8 @@ byte[] image;
 
                     }
 
-                    final ParseQuery q1 = ParseQuery.getQuery("User_details");
-                    q1.whereEqualTo("user", ParseUser.getCurrentUser().getObjectId());
+                    final ParseQuery q1 = ParseUser.getQuery();
+                    q1.whereEqualTo("objectId", ParseUser.getCurrentUser().getObjectId());
                     q1.countInBackground(new CountCallback() {
                         @Override
                         public void done(int i, ParseException e) {
@@ -166,12 +166,6 @@ byte[] image;
                                         }
                                     }
                                 });
-                            } else {
-                                ParseObject user_detail = new ParseObject("User_details");
-                                user_detail.put("user", ParseUser.getCurrentUser().getObjectId());
-                                user_detail.put("address", address);
-                                user_detail.put("mobile", phone);
-                                user_detail.saveInBackground();
                             }
                         }
                     });

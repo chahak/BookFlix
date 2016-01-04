@@ -1627,7 +1627,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0a003d;
         public static final int action_mode_bar_stub=0x7f0a003c;
         public static final int action_mode_close_button=0x7f0a0025;
-        public static final int action_settings=0x7f0a00f5;
+        public static final int action_settings=0x7f0a00f6;
         public static final int activity_chooser_view_content=0x7f0a0026;
         public static final int addcart=0x7f0a0088;
         public static final int addcart1=0x7f0a00c4;
@@ -1647,9 +1647,9 @@ containing a value of this type.
         public static final int bookname=0x7f0a00ad;
         public static final int branch=0x7f0a00d6;
         public static final int branch_buy=0x7f0a0065;
-        public static final int branch_p=0x7f0a00e9;
+        public static final int branch_p=0x7f0a00ea;
         public static final int branch_u=0x7f0a00b7;
-        public static final int branch_user=0x7f0a00ef;
+        public static final int branch_user=0x7f0a00f0;
         public static final int bsubmit=0x7f0a00da;
         public static final int btn1_1=0x7f0a0078;
         public static final int btn1_2=0x7f0a0079;
@@ -1666,7 +1666,7 @@ containing a value of this type.
         public static final int c_pass=0x7f0a00d9;
         public static final int cancel_action=0x7f0a008a;
         public static final int cart_image=0x7f0a0080;
-        public static final int change_pass=0x7f0a00eb;
+        public static final int change_pass=0x7f0a00ec;
         public static final int checkbox=0x7f0a0038;
         public static final int chronometer=0x7f0a0090;
         public static final int code_al=0x7f0a00c7;
@@ -1683,11 +1683,11 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0a003e;
         public static final int default_activity_button=0x7f0a0029;
         public static final int delete_book_button=0x7f0a005c;
-        public static final int delete_button=0x7f0a00f3;
+        public static final int delete_button=0x7f0a00f4;
         public static final int deletecode=0x7f0a005b;
-        public static final int deleteinfo=0x7f0a00f1;
+        public static final int deleteinfo=0x7f0a00f2;
         public static final int deleteinfo1=0x7f0a005a;
-        public static final int deleteroll=0x7f0a00f2;
+        public static final int deleteroll=0x7f0a00f3;
         public static final int dialog=0x7f0a001b;
         public static final int disableHome=0x7f0a000c;
         public static final int drawer_icon=0x7f0a00e4;
@@ -1695,10 +1695,10 @@ containing a value of this type.
         public static final int drawer_layout=0x7f0a00de;
         public static final int drawl=0x7f0a005f;
         public static final int dropdown=0x7f0a001c;
-        public static final int edit_p=0x7f0a00ec;
+        public static final int edit_p=0x7f0a00ed;
         public static final int edit_query=0x7f0a0042;
         public static final int email=0x7f0a00d5;
-        public static final int email_p=0x7f0a00e8;
+        public static final int email_p=0x7f0a00e9;
         public static final int end=0x7f0a0014;
         public static final int end_padder=0x7f0a0095;
         public static final int expand_activities_button=0x7f0a0027;
@@ -1735,7 +1735,7 @@ containing a value of this type.
         public static final int listView2=0x7f0a005d;
         public static final int listView3=0x7f0a0071;
         public static final int listView4=0x7f0a00b9;
-        public static final int listView5=0x7f0a00f4;
+        public static final int listView5=0x7f0a00f5;
         public static final int listView6=0x7f0a0062;
         public static final int listView7=0x7f0a0068;
         public static final int list_item=0x7f0a002a;
@@ -1745,10 +1745,10 @@ containing a value of this type.
         public static final int multiply=0x7f0a001e;
         public static final int name_al=0x7f0a00c5;
         public static final int name_buy=0x7f0a0064;
-        public static final int name_p=0x7f0a00e6;
+        public static final int name_p=0x7f0a00e7;
         public static final int name_t=0x7f0a00bd;
         public static final int name_u=0x7f0a00b6;
-        public static final int name_user=0x7f0a00ee;
+        public static final int name_user=0x7f0a00ef;
         public static final int never=0x7f0a0019;
         public static final int none=0x7f0a000e;
         public static final int normal=0x7f0a000a;
@@ -1770,9 +1770,9 @@ containing a value of this type.
         public static final int result=0x7f0a00ba;
         public static final int roll=0x7f0a00d3;
         public static final int roll_buy=0x7f0a0063;
-        public static final int roll_p=0x7f0a00e7;
+        public static final int roll_p=0x7f0a00e8;
         public static final int roll_u=0x7f0a00b5;
-        public static final int roll_user=0x7f0a00ed;
+        public static final int roll_user=0x7f0a00ee;
         public static final int s_add=0x7f0a00b2;
         public static final int s_mobile=0x7f0a00b3;
         public static final int screen=0x7f0a001f;
@@ -1842,6 +1842,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0a0012;
         public static final int user=0x7f0a00d4;
         public static final int user_name=0x7f0a00a8;
+        public static final int user_pic=0x7f0a00e6;
         public static final int user_rollno=0x7f0a00a7;
         public static final int userpass=0x7f0a00d0;
         public static final int userroll=0x7f0a00cf;
@@ -1851,9 +1852,9 @@ containing a value of this type.
         public static final int wrap_content=0x7f0a001d;
         public static final int year=0x7f0a00d7;
         public static final int year_buy=0x7f0a0066;
-        public static final int year_p=0x7f0a00ea;
+        public static final int year_p=0x7f0a00eb;
         public static final int year_u=0x7f0a00b8;
-        public static final int year_user=0x7f0a00f0;
+        public static final int year_user=0x7f0a00f1;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0b0000;
