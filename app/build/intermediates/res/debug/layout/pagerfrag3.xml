@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="16dp"
+        android:text="So, what are you waiting for...??"
+        android:textColor="#F5F5DC"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="italic"/>
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/flatselec"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:background="@drawable/flatselec"
+        android:text="SIGN UP" />
+<!--
+ <Button
+     android:id="@+id/admin"
+     android:layout_width="200dp"
+     android:layout_marginTop="15dp"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:background="#99EEEEEE"
+     android:text="Admin Login" />
+     -->
+    
+</LinearLayout>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/pagerfrag3.xml -->

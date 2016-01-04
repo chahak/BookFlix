@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    >
+
+      <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+   
+
+    <TextView
+        android:id="@+id/book_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="20sp"
+        android:text="tv2" />
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="10sp"
+        android:text="tv4" />
+    
+      </LinearLayout>
+      <Button
+        android:id="@+id/show_book_al"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_margin="5dp"
+        android:background="#99918151"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Show details"
+         />
+    
+    
+
+</LinearLayout><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/rowview_book.xml -->

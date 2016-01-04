@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the world of books!!"
+        android:textSize="30sp"
+        android:textColor="#D2691E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More than a book store..."
+        android:textSize="30sp"
+        android:textColor="#D2691E"
+        />
+   
+
+</LinearLayout>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/users_al_navfr1.xml -->

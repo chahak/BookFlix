@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+  <corners android:radius="@dimen/corner_radius" />
+  <solid android:color="#E65100" />
+    
+
+</shape>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/drawable/rectpressed.xml -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:background="#996D351A"
+        android:padding="16dp"
+        android:text="You have registered successfully!"
+        android:textSize="30dp"
+        android:textColor="#002E63"
+        android:textStyle="bold" />
+    
+  
+
+</LinearLayout>

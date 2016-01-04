@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@drawable/rectpressed" />
+ 
+  <item android:bottom="@dimen/layer_padding">
+      <shape android:shape="rectangle">
+          <corners android:radius="@dimen/corner_radius" />
+          <solid android:color="#FFA000" />
+      </shape>
+  </item>
+</layer-list><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/drawable/rectnormal.xml -->

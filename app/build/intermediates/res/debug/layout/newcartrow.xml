@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bright_foreground_disabled_material_dark">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/cart_image"
+        android:src="@drawable/bookbg3"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/tvname1"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tvauthor1"
+        android:layout_alignStart="@+id/tvauthor1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="author"
+        android:id="@+id/tvauthor1"
+        android:textSize="15dp"
+        android:layout_below="@+id/tvname1"
+        android:layout_toRightOf="@+id/cart_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:id="@+id/tvprice1"
+        android:textSize="15dp"
+        android:layout_below="@+id/tvauthor1"
+        android:layout_toRightOf="@+id/cart_image"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/iv_cross"
+        android:src="@drawable/delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"/>
+
+
+</RelativeLayout><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/newcartrow.xml -->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BookFlix</string>
+
+    <string-array name="items1">
+        <item>Home</item>
+        <item>Buy Books</item>
+        <item>Cart</item>
+        <item>Books bought</item>
+        <item>Sign out</item>
+    </string-array>
+    <string-array name="items2">
+        <item>Home</item>
+        <item>Sell Books</item>
+        <item>Sold</item>
+        <item>Sign out</item>
+    </string-array>
+    <string-array name="items3">
+        <item>Home</item>
+        <item>Users list</item>
+        <item>Delete User</item>
+        <item>Sign out</item>
+    </string-array>
+    <string-array name="items4">
+        <item>Home</item>
+        <item>Boooks list</item>
+        <item>Delete Book</item>
+        <item>Sign out</item>
+    </string-array>
+
+    <string name="open_draw">drawer is opened</string>
+    <string name="close_draw">drawer is closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frag1">Frag1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_frag2">Frag2</string>
+    <string name="chose_branch">Choose your branch</string>
+    <string name="title_activity_frag3">Frag3</string>
+    <string name="title_activity_nav_draw">NavDraw</string>
+    <string name="title_activity_signup">Signup</string>
+
+    <string-array name="branches">
+        <item>COE</item>
+        <item>ECE</item>
+        <item>MEC</item>
+        <item>ELE</item>
+        <item>EIC</item>
+        <item>CIV</item>
+    </string-array>
+    <string-array name="years">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </string-array>
+
+    <string name="title_activity_adminlogin">Adminlogin</string>
+    <string name="title_activity_book_details">Book_details</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_navdraw1">Navdraw1</string>
+    <string name="title_activity_admin_main">Admin_main</string>
+    <string name="title_activity_users_al_delete">Users_al_delete</string>
+    <string name="title_activity_test">Test</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="title_activity_server1">Server1</string>
+</resources>

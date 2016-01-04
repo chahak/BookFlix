@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    >  
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROLL NUMBER"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+            android:textColor="#000000"
+        	android:textSize="20sp"/>
+          <TextView 
+        	android:id="@+id/roll_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+        	android:padding="5dp"
+        	android:textSize="15sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER NAME"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+        	android:textSize="20sp"/>
+          <TextView 
+        	android:id="@+id/name_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+        	android:padding="5dp"
+        	android:textSize="15sp"/>
+    </TableRow>
+   
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BRANCH"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+            android:textColor="#000000"
+        	android:textSize="20sp"/>
+          <TextView 
+        	android:id="@+id/branch_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+            android:textColor="#000000"
+        	android:textSize="15sp"/>
+    </TableRow>
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YEAR"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+            android:textColor="#000000"
+        	android:textSize="20sp"/>
+          <TextView 
+        	android:id="@+id/year_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+        	android:padding="5dp"
+        	android:textColor="#CC0000"
+        	android:textSize="30sp"/>
+    </TableRow>
+    <Button
+        android:id="@+id/back_button_buy"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back to books"
+        android:background="#99330099"
+        android:textColor="#FFFFFF"
+        android:onClick="back_button" />
+     
+   
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/buyer.xml -->

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nerd"
+    tools:context="com.thapar.bookbazar.Main" 
+   android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"/>
+
+
+    <FrameLayout
+        android:id="@+id/flp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+<!--        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Server"
+            android:onClick="server"/> -->
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/img1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+
+ <!--
+    <android.support.v4.view.PageTabStrip
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+       />
+    -->
+
+</LinearLayout>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/activity_main.xml -->

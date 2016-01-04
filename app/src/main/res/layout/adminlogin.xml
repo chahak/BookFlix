@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thapar.bookbazar.Adminlogin" 
+    android:background="#F0DC82"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello admin!" />
+    <EditText 
+        android:id="@+id/adminname"
+        android:layout_width="fill_parent"
+        android:hint="Admin name"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:background="@drawable/round_corner"
+        android:layout_height="40dp"
+        android:textSize="20sp"/>
+    
+    <EditText 
+        android:id="@+id/adminpass"
+        android:layout_width = "fill_parent"
+        android:layout_height = "40dp"
+        android:hint = "Password"
+        android:layout_margin ="5dp"
+        android:padding="4dp"
+        android:background="@drawable/round_corner"
+        android:textSize="20sp"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp" >
+
+        <Button
+            android:id="@+id/adminsign"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"           
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="adminsign"
+            style="@style/button_text"
+            android:background="@drawable/button1"/>
+
+    </LinearLayout>
+     <TextView 
+        android:id="@+id/admininfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

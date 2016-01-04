@@ -1,0 +1,105 @@
+<RelativeLayout 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thapar.bookbazar.Signin" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/biking"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="LOG IN"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:background="@color/blue_normal"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="30dp"
+            android:background="#ffffff"/>
+
+
+        <EditText
+            android:id="@+id/userroll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Roll number"
+            android:background="@drawable/roundedittext"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginBottom="25dp"
+            android:textColorHint="#cbcbcb"
+
+            android:textSize="20dp"
+            >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/userpass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/roundedittext"
+            android:hint="Password"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+
+            android:textSize="20dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/usersign"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/flatselec"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:text="SIGN IN"
+            android:onClick="usersign" />
+        <!--
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="Forget your password?"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />     -->
+
+        <TextView
+            android:id="@+id/info3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/signin.xml -->

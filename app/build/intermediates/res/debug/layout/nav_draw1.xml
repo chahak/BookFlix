@@ -1,0 +1,32 @@
+<android.support.v4.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawl"
+    android:layout_height="match_parent"
+    android:background="@drawable/lib"
+    tools:context="com.thapar.bookbazar.NavDraw1">
+
+   <FrameLayout
+        android:id="@+id/fl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+       
+        
+        </FrameLayout>
+
+    <ListView
+        android:id="@+id/left_draw"
+        android:layout_width="240dp"
+
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#000000"
+        />
+
+</android.support.v4.widget.DrawerLayout>
+
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/nav_draw1.xml -->

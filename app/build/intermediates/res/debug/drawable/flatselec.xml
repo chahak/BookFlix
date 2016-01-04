@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true" android:drawable="@drawable/rectpressed"/>
+  <item android:drawable="@drawable/rectnormal"/>
+</selector><!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/drawable/flatselec.xml -->

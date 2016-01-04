@@ -1,0 +1,206 @@
+<RelativeLayout 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thapar.bookbazar.Sell_Books" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentRight="true"
+  android:layout_alignParentTop="true"
+  android:orientation="vertical"
+  android:background="#ffffff"
+   >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Details"
+            android:gravity="center"
+            android:textColor="#99009B96"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<View
+   android:layout_width="fill_parent"
+   android:layout_height="2dp"
+   android:layout_marginBottom="10dp"
+   android:background="#C0C0C0"/>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:weightSum="3"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <ImageView android:id="@+id/ImageView01"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:src="@drawable/b3"
+        android:layout_gravity="center">
+    </ImageView>
+
+
+    <Button
+        android:text="change"
+        android:id="@+id/Button01"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="#99009B96"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="setimage"
+        >
+    </Button>
+    </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/bookname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Publisher"
+            android:inputType="textEmailAddress"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Author"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Price"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+             android:textColor="#000000"
+             android:textSize="20dp"
+             />
+
+        <EditText
+            android:id="@+id/condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Condition"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#cbcbcb"
+             android:textColor="#000000"
+             android:textSize="20dp"
+            />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Seller details:"
+          android:textColor="#99009B96"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <EditText
+          android:id="@+id/s_add"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Pick-up address"
+          android:layout_marginRight="15dp"
+          android:layout_marginLeft="15dp"
+          android:textColorHint="#cbcbcb"
+          android:textColor="#000000"
+          android:textSize="20dp"
+          />
+
+      <EditText
+          android:id="@+id/s_mobile"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Contact number"
+          android:layout_marginRight="15dp"
+          android:layout_marginLeft="15dp"
+          android:textColorHint="#cbcbcb"
+          android:textColor="#000000"
+          android:textSize="20dp"
+          />
+
+     <!--
+        <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload image from gallery!"
+    />
+    -->
+
+
+
+
+<Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="#99009B96"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="Submit"
+            android:textSize="15sp"
+            android:onClick="book_submit" />
+
+    </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/F:/bookflix/BookFlix/app/src/main/res/layout/sell_books.xml -->
